@@ -37,9 +37,9 @@ document.addEventListener('keydown', function(event) {
     costume096.style.top = positionY + 'px';
   }
 });
-let dSprites = [100];
+let dSprites = [];
 
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 100; i++) {
   let dSprite = document.createElement('div');
   dSprite.style.width = '100px';
   dSprite.style.height = '300px';
